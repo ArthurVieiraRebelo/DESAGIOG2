@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-size: 3vh;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 2rem;
+    font-variant: small-caps;
+}
+header > p{
+    padding-bottom: 2rem;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding: 10vh 0 10vh 5vh;
+}
+.semfundo{
+    background-color: white;
+    color: black;
+    line-height: 1.9rem;
+
+}
+#fundojoaninha{
+    background: rgb(0, 0, 0) url(imagens/background001.jpg) center center no-repeat ;
+}
+#fundopapel{
+    background:black url(imagens/background002.jpg) center center no-repeat;
+}
+section.imagem  p{
+    background-color: rgba(0, 0, 0, 0.571);
+    color: white;
+    width: 40vh;
+}
+footer{
+    padding: 1vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
